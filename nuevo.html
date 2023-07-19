@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+  <title>Mi sitio web</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Arial", sans-serif;
+      background-color: #f8f8f8;
+    }
+    
+    nav {
+      background-color: #000000;
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    nav h1 {
+      font-size: 24px;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(230, 222, 222, 0.596);
+    }
+    
+    nav img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .parrafo {
+      margin-top: 100px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      line-height: 1.6;
+      font-size: 18px;
+      text-align: justify;
+    }
+    
+    .color {
+      color: #20b61b;
+    }
+    
+    .card {
+      position: relative;
+      text-align: center;
+      margin: 20px auto;
+      width: 300px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 70px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+      background-color: #79b37b7a;
+    }
+    
+    .card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .card p {
+      font-size: 14px;
+      margin-top: 10px;
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover p {
+      transform: translateX(10px);
+    }
+    
+    .button {
+      display: block;
+      width: 220px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      margin: 20px auto;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background-color: #45a049;
+    }
+    .payment-cards {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .payment-card {
+      text-align: center;
+      width: 200px;
+      margin: 25px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      color: rgb(94, 94, 94);
+    }
+    
+    .payment-card:hover {
+      transform: translateY(-5px);
+      background-color: rgba(170, 166, 168, 0.411);
+    }
+    .payment-card:hover:nth-child(2) {
+      transform: translateY(-5px);
+      background-color: rgba(163, 133, 35, 0.411);
+    }
+    
+    
+    .payment-card h3  {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: rgb(209, 138, 57);
+    }
+    .payment-card:nth-child(2) {
+  
+      color: #a19a31;
+    }
+    .payment-card p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    
+    .payment-card .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Under Pressure</h1>
+    <img src="images/loga.png" alt="Logo">
+  </nav>
+  
+  <div class="parrafo">
+    <h2>¿Quiénes somos?</h2>
+    <p>En nuestra comunidad, somos un grupo unido por nuestra pasión por el entrenamiento y la superación personal. Nos impulsamos a alcanzar nuestro potencial máximo y mejorar un 1% más cada día.</p>
+    <p>Creemos firmemente en el valor del esfuerzo y la dedicación. Sabemos que cada gota de sudor, cada repetición y cada entrenamiento nos acerca un paso más a nuestras metas. Valoramos el sacrificio y la disciplina, sabiendo que son el camino hacia el crecimiento y el progreso.</p>
+    <p>Pero más allá del esfuerzo individual, reconocemos el valor de compartir como comunidad. Nos apoyamos mutuamente, compartiendo conocimientos, experiencias y motivación. Entendemos que al unirnos, multiplicamos nuestras fortalezas y superamos juntos los desafíos que se nos presentan.</p>
+    <p>En nuestra comunidad, no solo buscamos transformarnos físicamente, sino también desarrollar nuestras mentes y espíritus. Nos esforzamos por cultivar una mentalidad positiva, resiliente y enfocada en el crecimiento constante.</p>
+    <p>Cada uno de nosotros tiene una historia única, pero compartimos un objetivo común: convertirnos en la mejor versión de nosotros mismos. Celebramos los logros de cada miembro y nos inspiramos mutuamente para seguir adelante cuando las cosas se ponen difíciles.</p>
+    <p>Nuestro espíritu de comunidad se extiende más allá de los muros del gimnasio. En resumen, somos una comunidad de entrenamiento comprometida con el crecimiento personal y el desarrollo colectivo. Valoramos el esfuerzo y la superación, y entendemos que juntos somos más fuertes. Estamos aquí para inspirarnos, apoyarnos y alcanzar nuevos niveles de excelencia. ¡Únete a nuestra comunidad y descubre lo que puedes lograr cuando te rodeas de personas con metas similares!</p>
+  </div>
+  
+  <div class="card">
+    <h2>Rutinas</h2>
+    <img src="images/pngwing.com.png" alt="Imagen 1">
+    <p>Adaptamos una rutina para tu objetivo específico.</p>
+  </div>
+  
+  <div class="card">
+    <h2>Alimentación</h2>
+    <img src="images/pngwing.com (1).png" alt="Imagen 2">
+    <p>Te brindamos un plan con los macros adecuados para llegar a tu objetivo.</p>
+  </div>
+  
+  <div class="card">
+    <h2>Chequeo</h2>
+    <img src="images/pngwing.com (2).png" alt="Imagen 3">
+    <p>Nos encargamos de hacerte un seguimiento semanal para ayudarte a progresar semana a semana.</p>
+  </div>
+  
+  <a class="button" href="https://www.tusitio.com">¡Tenemos un desafío para ti!</a>
+ 
+  
+  <div class="payment-cards">
+    <div class="payment-card" onclick="window.location.href='https://www.linkdepago1.com'">
+      <h3>  plan  platium 1</h3>
+      <p class="price">$19.99/mes</p>
+      <p>incluye check, alimentacion y rutina.</p>
+    </div>
+    <div class="payment-card" onclick="window.location.href='https://www.linkdepago2.com'">
+      <h3>Plan gold</h3>
+      <p class="price">$29.99/mes</p>
+      <p>incluyes check, alimentacion, rutina y entrenamiento en undder</p>
+    </div>
+  </div>
+</body>
+</html>
